@@ -1,0 +1,103 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: #222C2A;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+
+.design-title {
+    color: #824936;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.custom {
+    background-color: #222C2A;
+    color: #FFF;
+}
+
+.care {
+    background-color: #824936;
+    color: #FFF;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;  
+}
+
+
+.hero {
+    min-height: 660px;
+    background-color: #F3EED9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    align-items: flex-start;
+}
+
+.col {
+    width: 48%;
+}
+
+.design .row {
+    padding-top: 0;
+}
+
+
+.hero-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title { 
+    color: #824936; 
+    order: 2;  
+}
+
+.sub-title {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    order: 1;
+}
